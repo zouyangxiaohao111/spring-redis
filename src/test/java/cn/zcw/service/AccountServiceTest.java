@@ -33,6 +33,6 @@ public class AccountServiceTest {
 
         List<Account> key1 = (List<Account>) redisCacheUtil.getCacheObject("key:1");
 
-        System.out.println(key1);
+        System.out.println(key1+"");
     }
 }
