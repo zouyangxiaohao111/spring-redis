@@ -24,7 +24,7 @@
 
     <bean id="JedisConnectionFactory"
           class="org.springframework.data.redis.connection.jedis.JedisConnectionFactory"
-          p:host-name="192.168.0.209"
+          p:host-name="192.168.52.130"
           p:port="6379"
           p:pool-config-ref="poolConfig"/>
 
